@@ -3,6 +3,6 @@
   tasks:
   - name: install nginx
     ansible.builtin.package: #heterogenous module that can work for all destros
-    name: nginx
-    state: present
+      name: nginx
+      state: present
 
